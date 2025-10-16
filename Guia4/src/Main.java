@@ -12,11 +12,11 @@ public class Main {
             System.out.println("5) Ejercicio 5 - Buscar un valor");
             System.out.println("6) Ejercicio 6 - Contar elementos");
             System.out.println("7) Ejercicio 7 - Invertir la lista");
-            System.out.println("8) Ejercicio 8 - Insertar en posición");
+            System.out.println("8) Ejercicio 8 - Insertar en posicion");
             System.out.println("9) Ejercicio 9 - Eliminar duplicados");
-            System.out.println("10) Ejercicio 10 - Aplicación práctica (registro de alumnos)");
+            System.out.println("10) Ejercicio 10 - Aplicacion practica (registro de alumnos)");
             System.out.println("0) Salir");
-            System.out.print("Elige una opción: ");
+            System.out.print("Elige una opcion: ");
             int opt = -1;
             try {
                 opt = Integer.parseInt(sc.nextLine().trim());
@@ -112,7 +112,7 @@ public class Main {
                     System.out.println("Antes: ");
                     inv.imprimir();
                     inv.invertir();
-                    System.out.println("Después: ");
+                    System.out.println("Despues: ");
                     inv.imprimir();
                     break;
                 case 8:
@@ -122,7 +122,7 @@ public class Main {
                     iep.insertarFinal(4);
                     System.out.println("Antes: ");
                     iep.imprimir();
-                    System.out.print("Insertar valor en posición (ej: 3 2 -> valor 3 en pos 2): ");
+                    System.out.print("Insertar valor en posicion (ej: 3 2 -> valor 3 en pos 2): ");
                     try {
                         String[] parts = sc.nextLine().trim().split("\\s+");
                         int val = Integer.parseInt(parts[0]);
@@ -145,7 +145,7 @@ public class Main {
                     System.out.println("Antes: ");
                     ed.imprimir();
                     ed.eliminarDuplicados();
-                    System.out.println("Después: ");
+                    System.out.println("Despues: ");
                     ed.imprimir();
                     break;
                 case 10:
@@ -187,8 +187,9 @@ public class Main {
                     sc.close();
                     return;
                 default:
-                    System.out.println("Opción inválida.");
+                    System.out.println("Opcion invalida.");
             }
         }
     }
 }
+
