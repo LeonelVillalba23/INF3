@@ -1,4 +1,4 @@
-# Práctico Árbol AVL — Guia4
+# Práctico Árbol AVL — Guia5
 
 Este repositorio contiene implementaciones y ejercicios para trabajar con árboles AVL.
 
@@ -36,3 +36,4 @@ Siguientes pasos opcionales (elige):
 - Puedo compilar y ejecutar los tests ahora y compartir la salida (aceptarás que se generen `.class`).
 - Puedo añadir tests JUnit y un script de ejecución automatizada.
 - Puedo ajustar o extender la salida textual (más dibujitos del árbol, export a PNG, etc.).
+
