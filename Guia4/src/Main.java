@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while (true) {
+        boolean salir = false;
+
+        do {
             System.out.println("\n--- Menu de ejercicios (1-9) ---");
             System.out.println("1) Ejercicio 1 - Crear 3 nodos y enlazarlos manualmente");
             System.out.println("2) Ejercicio 2 - Insertar al inicio (insertarAlInicio)");
@@ -183,14 +185,22 @@ public class Main {
                     lista.imprimirLista();
                     break;
                 case 0:
-                    System.out.println("Saliendo...");
-                    sc.close();
-                    return;
+                    salir = true;
+                    break;
                 default:
                     System.out.println("Opcion invalida.");
             }
-        }
+
+            if (!salir) {
+                System.out.print("\nSelecciona '0' para salir o presiona Enter para volver al menu: ");
+                String cont = sc.nextLine();
+                if (cont != null && cont.trim().equals("0")) {
+                    salir = true;
+                }
+            }
+        } while (!salir);
+
+        System.out.println("Saliendo...");
+        sc.close();
     }
 }
-
-
