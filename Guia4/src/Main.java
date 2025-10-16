@@ -77,7 +77,7 @@ public class Main {
                     System.out.print("Valor a eliminar : ");
                     int toDel = Integer.parseInt(sc.nextLine().trim());
                     elim.eliminarPorValor(toDel);
-                    System.out.println("Después: ");
+                    System.out.println("Despues: ");
                     elim.imprimir();
                     break;
                 case 5:
@@ -192,4 +192,5 @@ public class Main {
         }
     }
 }
+
 
