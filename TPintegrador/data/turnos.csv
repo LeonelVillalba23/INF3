@@ -1,0 +1,5 @@
+id,dniPaciente,matriculaMedico,fechaHora,duracionMin,motivo
+T-001,32045982,M-001,2025-10-28T09:00,30,Control
+T-015,32458910,M-001,2025-10-28T09:30,30,ECG
+T-022,31247856,M-001,2025-10-28T10:00,30,Consulta general
+T-037,31890432,M-001,2025-10-28T10:30,30,Seguimiento post-op
