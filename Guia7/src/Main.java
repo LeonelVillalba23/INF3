@@ -20,20 +20,57 @@ public class Main {
             System.out.print("Opción: ");
             int opt = sc.nextInt();
 
-            if (opt == 0) break;
-            else if (opt == 1) Ejercicio1.ejecutar();
-            else if (opt == 2) Ejercicio2.ejecutar();
-            else if (opt == 3) Ejercicio3.ejecutar();
-            else if (opt == 4) Ejercicio4.ejecutar();
-            else if (opt == 5) Ejercicio5.ejecutar();
-            else if (opt == 6) Ejercicio6.ejecutar();
-            else if (opt == 7) Ejercicio7.ejecutar();
-            else if (opt == 8) Ejercicio8.ejecutar();
-            else if (opt == 9) Ejercicio9.ejecutar();
-            else if (opt == 10) Ejercicio10.ejecutar();
-            else System.out.println("Opción inválida.");
-        }
+            switch (opt) {
+                case 0:
+                    System.out.println("Saliendo del programa...");
+                    sc.close();
+                    return;
 
-        sc.close();
+                case 1:
+                    Ejercicio1.ejecutar();
+                    break;
+
+                case 2:
+                    Ejercicio2.ejecutar();
+                    break;
+
+                case 3:
+                    Ejercicio3.ejecutar();
+                    break;
+
+                case 4:
+                    Ejercicio4.ejecutar();
+                    break;
+
+                case 5:
+                    Ejercicio5.ejecutar();
+                    break;
+
+                case 6:
+                    Ejercicio6.ejecutar();
+                    break;
+
+                case 7:
+                    Ejercicio7.ejecutar();
+                    break;
+
+                case 8:
+                    Ejercicio8.ejecutar();
+                    break;
+
+                case 9:
+                    Ejercicio9.ejecutar();
+                    break;
+
+                case 10:
+                    Ejercicio10.ejecutar();
+                    break;
+
+                default:
+                    System.out.println("Opción inválida.");
+                    break;
+            }
+        }
     }
 }
+
