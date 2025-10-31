@@ -1,0 +1,6 @@
+id,fecha,hora,duracion,dniPaciente,matriculaMedico,motivo
+T-015,22/11/2025,09:30,30,32458910,M-001,ECG (nube)
+T-022,22/11/2025,10:00,30,31247856,M-001,Consulta general (nube)
+T-100,22/11/2025,11:00,30,33112233,M-002,Consulta nube
+T-050,23/11/2025,11:00,60,32500890,M-002,Cirugía (duplicado)
+T-200,24/11/2025,09:00,45,31111222,M-001,Control nube
