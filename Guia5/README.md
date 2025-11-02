@@ -35,14 +35,14 @@ Por qué organizamos cada clase así
 - `AVLTree` concentra la lógica para mantener el balance y facilita pruebas unitarias.  
 - `Main` sirve para ejecutar demos sin editar código durante la exposición.
 
-Guion corto para la exposición (1 minuto)
+Guion corto para la exposición 
 ----------------------------------------
 1. Objetivo : "Demostrar cómo AVL mantiene el balance tras inserciones/eliminaciones."  
 2. Mostrar `Main` y elegir 2 demos: una inserción que produce una rotación y una eliminación que rebalancea (30–35s).  
 3. Explicar recursividad + FE (20–25s): "la inserción sube por la recursión, actualiza alturas, detecta FE fuera de [-1,1] y aplica rotación."  
 4. Concluir : complejidad O(log n) y que `Ej10_Tests` valida casos extremos.
 
-Diapositiva lista (6 bullets)
+Diapositiva lista 
 -----------------------------
 - Objetivo: demostrar que AVL mantiene balance tras operaciones.  
 - Estructura: `AVLNode` (estado), `AVLTree` (lógica), `Ej*` (demos).  
