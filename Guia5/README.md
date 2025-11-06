@@ -35,7 +35,7 @@ Por qué organizamos cada clase así
 - `AVLTree` concentra la lógica para mantener el balance y facilita pruebas unitarias.  
 - `Main` sirve para ejecutar demos sin editar código durante la exposición.
 
-Guion corto para la exposición 
+Explicacion corta
 ----------------------------------------
 1. Objetivo : "Demostrar cómo AVL mantiene el balance tras inserciones/eliminaciones."  
 2. Mostrar `Main` y elegir 2 demos: una inserción que produce una rotación y una eliminación que rebalancea (30–35s).  
@@ -51,7 +51,7 @@ Diapositiva lista
 - Estado local: cada nodo guarda altura; FE = h(d) - h(i).  
 - Resultado: altura O(log n) → operaciones O(log n); `Ej10` prueba robustez.
 
-Notas rápidas que puedes decir en la defensa
+Demostraciones
 -------------------------------------------
 - "Usamos recursividad para propagar alturas y detectar el primer desbalance desde abajo hacia arriba."  
 - "Las rotaciones son operaciones locales que reestructuran subárboles y actualizan alturas."  
