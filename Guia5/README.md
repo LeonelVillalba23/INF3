@@ -38,8 +38,8 @@ Por qué organizamos cada clase así
 Explicacion corta
 ----------------------------------------
 1. Objetivo : "Demostrar cómo AVL mantiene el balance tras inserciones/eliminaciones."  
-2. Mostrar `Main` y elegir 2 demos: una inserción que produce una rotación y una eliminación que rebalancea (30–35s).  
-3. Explicar recursividad + FE (20–25s): "la inserción sube por la recursión, actualiza alturas, detecta FE fuera de [-1,1] y aplica rotación."  
+2. Mostrar `Main` y elegir 2 demos: una inserción que produce una rotación y una eliminación que rebalancea.  
+3. Explicar recursividad + FE : "la inserción sube por la recursión, actualiza alturas, detecta FE fuera de [-1,1] y aplica rotación."  
 4. Concluir : complejidad O(log n) y que `Ej10_Tests` valida casos extremos.
 
 Diapositiva lista 
