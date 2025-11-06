@@ -1,12 +1,12 @@
-Resumen proyecto Guia6/src
+# Guia 6
 
-Propósito
+# Propósito
 Implementar un Red Black Tree y herramientas para probar y visualizar inserciones, rotaciones, recoloreos y verificadores de invariantes. Entrada Main.java con un menú interactivo.
 
 Estructura y organización
 Diseño modular con cada responsabilidad en su propia clase. Uso de un sentinel NIL negro para evitar comprobaciones de null. Flujo típico de operación: InsertBST inserta como árbol binario de búsqueda sin balancear, luego FixInsert reequilibra mediante recoloreos y rotaciones.
 
-Clases principales
+# Clases principales
 - RBNode: nodo genérico con clave, valor, color y punteros left, right y parent.
 - RBTree: contiene root y NIL, e implementa rotateLeft, rotateRight e impresiones del árbol.
 - InsertBST: inserción como ABB que devuelve el nodo insertado.
@@ -23,7 +23,7 @@ Clases principales
 Patrones técnicos clave
 Rotaciones con complejidad O1. Operaciones principales con comportamiento O(log n) en un árbol balanceado. Sentinel NIL único para simplificar casos borde. Verificaciones implementadas mediante recorridos recursivos. Separación clara entre colocación del nodo, clasificación del caso, ejecución de acciones y verificación de invariantes.
 
-Guion corto para explicar oralmente
+# Explicacion corta
 1. Implementé un Red Black Tree con un menú interactivo para probar inserciones, rotaciones y verificadores. 
 2. Estructura base con RBNode y RBTree y un sentinel NIL negro. 
 3. Inserción en dos pasos: InsertBST coloca el nodo como ABB y FixInsert corrige con recoloreos y rotaciones guiado por CaseClassifier y RotationHandler. 
