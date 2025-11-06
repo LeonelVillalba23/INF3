@@ -60,9 +60,9 @@ Registra y muestra el estado del arreglo interno y los movimientos elementales d
 Provee un pequeño menú para agregar tareas, consultar la próxima, completar (extraer) y listar pendientes. Integra Tarea y AgendaTareas para mostrar un caso de uso completo: entrada de datos, mantenimiento de la prioridad y salida formateada para el usuario. Ideal para demostrar la aplicación práctica y la separación entre modelo (Tarea) y estructura (AgendaTareas).
 
 # ORGANIZACIÓN DEL TRABAJO
-- Dividí el contenido en unidades conceptuales y desarrollé demos independientes.  
+- Dividí el contenido en unidades conceptuales y desarrollé funciones independientes.  
 - Implementé primero operaciones básicas, luego utilidades (heapify, printTree) y finalmente la aplicación (agenda).  
-- Busqué mantener el código legible para explicar fácilmente la relación índice ↔ estructura de árbol.
+- Busqué mantener el código legible para que se entienda la estructura de árbol.
 
 # CONCLUSIÓN
-El proyecto progresa desde operaciones básicas de heap hasta una aplicación práctica (agenda). La implementación con arreglos y métodos iterativos facilita la comprensión y la exposición oral.
+El proyecto progresa desde operaciones básicas de heap hasta una aplicación práctica (agenda). La implementación con arreglos y métodos iterativos facilita la comprensión.
